@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="280.8pt" viewBox="0 0 468 280.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.8 
+L 468 280.8 
+L 468 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 9.72 105.552 
+L 203.331528 105.552 
+L 203.331528 70.704 
+L 9.72 70.704 
+z
+" clip-path="url(#p5286191835)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 205.971685 105.552 
+L 302.777449 105.552 
+L 302.777449 70.704 
+L 205.971685 70.704 
+z
+" clip-path="url(#p5286191835)" style="fill: #7f7f7f"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 305.417606 105.552 
+L 449.7462 105.552 
+L 449.7462 70.704 
+L 305.417606 70.704 
+z
+" clip-path="url(#p5286191835)" style="fill: #d55e00"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 263.216612 67.941637 
+Q 185.730721 22.458875 109.305452 67.318793 
+" clip-path="url(#p5286191835)" style="fill: none; stroke: #0072b2; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 113.321305 67.048756 
+L 109.305452 67.318793 
+L 111.498935 63.944088 
+z
+" clip-path="url(#p5286191835)" style="fill: #0072b2; stroke: #0072b2; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 275.458064 67.94658 
+Q 322.139415 40.93442 367.756305 67.331549 
+" clip-path="url(#p5286191835)" style="fill: none; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #d55e00; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 365.541937 63.970511 
+L 367.756305 67.331549 
+L 363.738854 67.08642 
+z
+" clip-path="url(#p5286191835)" style="fill: #d55e00; stroke-dasharray: 4.07,1.76; stroke-dashoffset: 0; stroke: #d55e00; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 16.320393 268.0308 
+L 148.328253 268.0308 
+Q 151.848463 268.0308 151.848463 264.546 
+L 151.848463 177.426 
+Q 151.848463 173.9412 148.328253 173.9412 
+L 16.320393 173.9412 
+Q 12.800183 173.9412 12.800183 177.426 
+L 12.800183 264.546 
+Q 12.800183 268.0308 16.320393 268.0308 
+z
+" clip-path="url(#p5286191835)" style="fill: #ffffff; stroke: #7f7f7f; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 163.72917 268.0308 
+L 295.73703 268.0308 
+Q 299.25724 268.0308 299.25724 264.546 
+L 299.25724 177.426 
+Q 299.25724 173.9412 295.73703 173.9412 
+L 163.72917 173.9412 
+Q 160.20896 173.9412 160.20896 177.426 
+L 160.20896 264.546 
+Q 160.20896 268.0308 163.72917 268.0308 
+z
+" clip-path="url(#p5286191835)" style="fill: #ffffff; stroke: #7f7f7f; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 311.137947 268.0308 
+L 443.145807 268.0308 
+Q 446.666017 268.0308 446.666017 264.546 
+L 446.666017 177.426 
+Q 446.666017 173.9412 443.145807 173.9412 
+L 311.137947 173.9412 
+Q 307.617737 173.9412 307.617737 177.426 
+L 307.617737 264.546 
+Q 307.617737 268.0308 311.137947 268.0308 
+z
+" clip-path="url(#p5286191835)" style="fill: #ffffff; stroke: #d55e00; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 9.72 110.7792 
+L 9.72 116.0064 
+L 302.777449 116.0064 
+L 302.777449 110.7792 
+" clip-path="url(#p5286191835)" style="fill: none; stroke: #0072b2; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 305.417606 110.7792 
+L 305.417606 116.0064 
+L 449.7462 116.0064 
+L 449.7462 110.7792 
+" clip-path="url(#p5286191835)" style="fill: none; stroke: #d55e00; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="106.525764" y="90.560617" transform="rotate(-0 106.525764 90.560617)">corretas</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="254.374567" y="90.560617" transform="rotate(-0 254.374567 90.560617)">erro visível</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="377.581903" y="90.560617" transform="rotate(-0 377.581903 90.560617)">erro silencioso</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="229.7331" y="18.741457" transform="rotate(-0 229.7331 18.741457)">Consultas iniciais para um conjunto de perguntas (proporções ilustrativas)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0072b2" x="156.248725" y="126.189052" transform="rotate(-0 156.248725 126.189052)">limite superior do laço: 1 − U</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d55e00" x="377.581903" y="126.189052" transform="rotate(-0 377.581903 126.189052)">U: erro inicial não sinalizado</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #0072b2" x="185.73048" y="35.519658" transform="rotate(-0 185.73048 35.519658)">corretor conserta (q)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #d55e00" x="322.138602" y="46.845258" transform="rotate(-0 322.138602 46.845258)">conserto errado silencia (e), além de U</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1a1a1a" x="20.280629" y="187.898646" transform="rotate(-0 20.280629 187.898646)">1. Erro de sintaxe</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.4px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #1a1a1a" transform="translate(20.280629 211.209115)">SELEC COUNT(*)</text>
+    <text style="font-size: 9.4px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #1a1a1a" transform="translate(20.280629 222.491685)">FROM membros_ativos</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #7f7f7f" transform="translate(20.280629 245.911811)">EXPLAIN falha:</text>
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #7f7f7f" transform="translate(20.280629 255.489545)">validador vê</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1a1a1a" x="167.689406" y="187.898646" transform="rotate(-0 167.689406 187.898646)">2. Tabela inexistente</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.4px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #1a1a1a" transform="translate(167.689406 211.209115)">SELECT COUNT(*)</text>
+    <text style="font-size: 9.4px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #1a1a1a" transform="translate(167.689406 222.491685)">FROM membros_ativos_v2</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #7f7f7f" transform="translate(167.689406 245.911811)">índice de tabelas acusa:</text>
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #7f7f7f" transform="translate(167.689406 255.489545)">validador vê</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1a1a1a" x="315.098183" y="187.898646" transform="rotate(-0 315.098183 187.898646)">3. Valor de filtro errado</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.4px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #1a1a1a" transform="translate(315.098183 211.209849)">... WHERE pais =</text>
+    <text style="font-size: 9.4px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #1a1a1a" transform="translate(315.098183 222.542357)">'Brasil'</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #d55e00" transform="translate(315.098183 245.911811)">compila, mas o valor</text>
+    <text style="font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #d55e00" transform="translate(315.098183 255.489545)">armazenado é 'BR': conta zero</text>
+   </g>
+   <g id="text_18">
+    <text style="font-style: italic; font-size: 8.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="229.7331" y="161.856634" transform="rotate(-0 229.7331 161.856634)">Três consultas hipotéticas para "quantos membros ativos do Brasil houve em outubro?"</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5286191835">
+   <rect x="9.72" y="9.72" width="440.0262" height="261.36"/>
+  </clipPath>
+ </defs>
+</svg>

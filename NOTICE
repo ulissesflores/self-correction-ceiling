@@ -1,0 +1,30 @@
+The self-correction ceiling: what a deterministic validator cannot see in multi-agent text-to-SQL — companion package
+Copyright 2026 Carlos Ulisses Flores, Codex Hash Research Laboratory.
+
+This repository is dual-licensed:
+
+  * Source code (code/, scripts/, tests/, run_all.py, make_provenance.py,
+    configs/stages.json) — Apache License 2.0.
+    See LICENSE and LICENSES/Apache-2.0.txt.
+    code/provenance_chain.py is vendored from the author's own tooling and is
+    under the same license.
+
+  * Text, figures and data authored here (README.md, REPRODUCIBILITY.md,
+    ROADMAP.md, CHANGELOG.md, docs/, data/, output/) — Creative Commons
+    Attribution 4.0 International (CC BY 4.0).
+    See LICENSES/CC-BY-4.0.txt.
+
+Third-party material — NOT redistributed here:
+
+  The paper analysed as a case, Chen et al. (2025), "Text-to-SQL for
+  enterprise data analytics" (arXiv:2507.14372), is not included in this
+  package. What the package carries instead is, for verification only: the
+  integers of its Table 2 (ablation study) and a few figures quoted from its
+  Sections 3.3.4 and 4, transcribed with their exact locator and the SHA-256
+  of the PDF that was read (data/linkedin_ablation.json). They remain under
+  the terms of their original publisher; cite the original source.
+
+Company, product and model names are used only to identify the systems that
+are discussed. This package is independent work: it is not affiliated with,
+sponsored by or endorsed by any of the companies named in it, and it makes no
+claim about their internal systems beyond what their public documents state.

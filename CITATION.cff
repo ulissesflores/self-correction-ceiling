@@ -1,0 +1,123 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it with the metadata below."
+title: "The self-correction ceiling: what a deterministic validator cannot see in multi-agent text-to-SQL"
+type: software
+version: "0.1.0"
+repository-code: "https://github.com/ulissesflores/self-correction-ceiling"
+date-released: "2026-11-07"
+authors:
+  - family-names: "Flores"
+    given-names: "Carlos Ulisses"
+    orcid: "https://orcid.org/0000-0002-6034-7765"
+    affiliation: "Codex Hash Research Laboratory, Codex Hash Ltda., Brazil"
+    website: "https://ulissesflores.com"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: >-
+  Companion package of a study of the accuracy ceiling of agentic text-to-SQL pipelines. In a retrieve -> generate -> validate -> correct pipeline whose corrector can return to retrieval, accuracy is bounded by 1 - U, where U = R(1-G)(1-d_g) + (1-R)(1-G0)(1-d_r) is the mass of errors that a deterministic validator never flags; when the corrector never silences a flagged error, it changes the speed at which the bound is approached, not the bound; with silencing, the limit falls below the bound. The package ships the closed-form model with proofs, a Monte Carlo known-answer test, the arithmetic of the public ablation of the LinkedIn SQL Bot (Chen et al., 2025, arXiv:2507.14372; one run, no confidence intervals), in which the silent error is only bounded by the published totals (29-53% without the query fixer, 48-53% with it), a pattern consistent with the model that does not prove it, four bilingual figures and a SHA-256 provenance chain. Scenarios are illustrative, not fitted to the case. The post-repair accuracy model and the coverage ceiling already exist in the literature (Yang et al., 2025; Reitich, 2026; Arnold, 1973); the contribution is to instantiate and compose them for multi-agent text-to-SQL with a predominantly deterministic validator.
+keywords:
+  - text-to-SQL
+  - self-correction
+  - accuracy ceiling
+  - multi-agent
+  - deterministic validator
+  - silent error
+  - LinkedIn SQL Bot
+  - reproducibility
+  - hash chain provenance
+references:
+  - type: article
+    title: "Text-to-SQL for enterprise data analytics"
+    authors:
+      - family-names: "Chen"
+        given-names: "Albert"
+      - family-names: "Bundele"
+        given-names: "Manas"
+      - family-names: "Ahlawat"
+        given-names: "Gaurav"
+      - family-names: "Stetz"
+        given-names: "Patrick"
+      - family-names: "Wang"
+        given-names: "Zhitao"
+      - family-names: "Fei"
+        given-names: "Qiang"
+      - family-names: "Jung"
+        given-names: "Donghoon"
+      - family-names: "Chu"
+        given-names: "Audrey"
+      - family-names: "Jayaraman"
+        given-names: "Bharadwaj"
+      - family-names: "Panth"
+        given-names: "Ayushi"
+      - family-names: "Arora"
+        given-names: "Yatin"
+      - family-names: "Jain"
+        given-names: "Sourav"
+      - family-names: "Varma"
+        given-names: "Renjith"
+      - family-names: "Ilin"
+        given-names: "Alexey"
+      - family-names: "Melnychuk"
+        given-names: "Iuliia"
+      - family-names: "Chueh"
+        given-names: "Chelsea"
+      - family-names: "Sil"
+        given-names: "Joyan"
+      - family-names: "Wang"
+        given-names: "Xiaofeng"
+    year: 2025
+    doi: "10.48550/arXiv.2507.14372"
+    url: "https://arxiv.org/abs/2507.14372"
+    notes: "arXiv preprint 2507.14372."
+  - type: conference-paper
+    title: "A probabilistic inference scaling theory for LLM self-correction"
+    authors:
+      - family-names: "Yang"
+        given-names: "Zhe"
+      - family-names: "Zhang"
+        given-names: "Yichang"
+      - family-names: "Wang"
+        given-names: "Yudong"
+      - family-names: "Xu"
+        given-names: "Ziyao"
+      - family-names: "Lin"
+        given-names: "Junyang"
+      - family-names: "Sui"
+        given-names: "Zhifang"
+    year: 2025
+    collection-title: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    start: 13573
+    end: 13587
+    doi: "10.18653/v1/2025.emnlp-main.685"
+  - type: article
+    title: "Correction and corruption: a two-rate view of error flow in LLM protocols"
+    authors:
+      - family-names: "Reitich"
+        given-names: "Fernando"
+    year: 2026
+    url: "https://arxiv.org/abs/2604.18245"
+    notes: "arXiv preprint 2604.18245."
+  - type: conference-paper
+    title: "The death of schema linking? Text-to-SQL in the age of well-reasoned language models"
+    authors:
+      - family-names: "Maamari"
+        given-names: "Karime"
+      - family-names: "Abubaker"
+        given-names: "Fadhil"
+      - family-names: "Jaroslawicz"
+        given-names: "Daniel"
+      - family-names: "Mhedhbi"
+        given-names: "Amine"
+    year: 2024
+    collection-title: "Table Representation Learning workshop at NeurIPS 2024"
+    url: "https://arxiv.org/abs/2408.07702"
+  - type: article
+    title: "The concept of coverage and its effect on the reliability model of a repairable system"
+    authors:
+      - family-names: "Arnold"
+        given-names: "Thomas F."
+    year: 1973
+    journal: "IEEE Transactions on Computers"
+    volume: "C-22"
+    doi: "10.1109/T-C.1973.223703"

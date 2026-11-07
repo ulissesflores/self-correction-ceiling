@@ -1,0 +1,34 @@
+[project]
+name = "self-correction-ceiling"
+version = "0.1.0"
+description = "Companion code: a closed-form accuracy ceiling for retrieve -> generate -> validate -> correct text-to-SQL pipelines, a Monte Carlo known-answer test and the arithmetic of a public ablation."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "matplotlib>=3.9",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = [".", "code", "tests", "scripts"]
+extend-exclude = ["output", "runs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "D"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.interrogate]
+fail-under = 100
+verbose = 1
+exclude = ["output", "runs", "build", ".venv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

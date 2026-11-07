@@ -1,0 +1,32 @@
+{
+  "hash_alg": "sha256",
+  "_order": "environment -> code -> data -> scores -> figures. Paths are relative to the repository root; the manifest holds no absolute path.",
+  "_note_prereg": "There is no pre-registration stage: the repository ships a closed-form model, a known-answer simulation of it and the arithmetic of a published table, not a pre-registered experiment.",
+  "_note_code": "Test files are listed by name on purpose: files owned by other documents of the repository (docs/THEORY.md and tests/test_doc_numbers.py, which locks the numbers quoted in README.md) are not part of the computational chain and may change without breaking the seal.",
+  "_note_replicated": "run_all.py writes regenerated outputs to output/replicated/; that directory matches no glob below (tests/test_stages_disjoint.py). Only run_all.py --publish writes the sealed outputs.",
+  "stages": [
+    {"name": "environment", "kind": "file", "path": "env.json"},
+    {"name": "code", "kind": "tree", "globs": [
+      "code/*.py",
+      "scripts/make_figures.py",
+      "run_all.py",
+      "make_provenance.py",
+      "configs/stages.json",
+      "tests/conftest.py",
+      "tests/test_model.py",
+      "tests/test_kat.py",
+      "tests/test_paper_numbers.py",
+      "tests/test_stages_disjoint.py"
+    ]},
+    {"name": "data", "kind": "tree", "globs": [
+      "data/linkedin_ablation.json"
+    ]},
+    {"name": "scores", "kind": "tree", "globs": [
+      "output/results.json"
+    ]},
+    {"name": "figures", "kind": "tree", "globs": [
+      "output/figures/*.png",
+      "output/figures/*.svg"
+    ]}
+  ]
+}

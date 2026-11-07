@@ -1,0 +1,23 @@
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Replication side: regenerated outputs, never sealed (see configs/stages.json and
+# tests/test_stages_disjoint.py). run_all.py writes the replication run to output/replicated/.
+output/replicated/
+
+# Agent instructions and workspace stamps of the authoring environment; not part of the package.
+CLAUDE.md
+.profile
+
+# Operating system
+.DS_Store
+Thumbs.db

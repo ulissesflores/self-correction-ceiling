@@ -1,0 +1,59 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "The self-correction ceiling: what a deterministic validator cannot see in multi-agent text-to-SQL",
+  "description": "Companion package of a study of the accuracy ceiling of agentic text-to-SQL pipelines. In a retrieve -> generate -> validate -> correct pipeline whose corrector can return to retrieval, accuracy is bounded by 1 - U, where U = R(1-G)(1-d_g) + (1-R)(1-G0)(1-d_r) is the mass of errors that a deterministic validator never flags; when the corrector never silences a flagged error, it changes the speed at which the bound is approached, not the bound; with silencing, the limit falls below the bound. The package ships the closed-form model with proofs, a Monte Carlo known-answer test, the arithmetic of the public ablation of the LinkedIn SQL Bot (Chen et al., 2025, arXiv:2507.14372; one run, no confidence intervals), in which the silent error is only bounded by the published totals (29-53% without the query fixer, 48-53% with it), a pattern consistent with the model that does not prove it, four bilingual figures and a SHA-256 provenance chain. Scenarios are illustrative, not fitted to the case. The post-repair accuracy model and the coverage ceiling already exist in the literature (Yang et al., 2025; Reitich, 2026; Arnold, 1973); the contribution is to instantiate and compose them for multi-agent text-to-SQL with a predominantly deterministic validator.",
+  "version": "0.1.0",
+  "license": [
+    "https://spdx.org/licenses/Apache-2.0",
+    "https://spdx.org/licenses/CC-BY-4.0"
+  ],
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "Python",
+    "url": "https://www.python.org/"
+  },
+  "runtimePlatform": "Python 3.11+ (sealed run: CPython 3.13.9)",
+  "softwareRequirements": [
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "pytest>=8.0"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6034-7765",
+      "givenName": "Carlos Ulisses",
+      "familyName": "Flores",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Codex Hash Research Laboratory, Codex Hash Ltda., Brazil"
+      },
+      "url": "https://ulissesflores.com",
+      "sameAs": [
+        "https://orcid.org/0000-0002-6034-7765",
+        "http://lattes.cnpq.br/6905246706890561",
+        "https://ulissesflores.com"
+      ]
+    }
+  ],
+  "keywords": [
+    "text-to-SQL",
+    "self-correction",
+    "accuracy ceiling",
+    "multi-agent",
+    "deterministic validator",
+    "silent error",
+    "LinkedIn SQL Bot",
+    "reproducibility",
+    "hash chain provenance"
+  ],
+  "citation": [
+    "https://doi.org/10.48550/arXiv.2507.14372",
+    "https://doi.org/10.18653/v1/2025.emnlp-main.685",
+    "https://doi.org/10.1109/T-C.1973.223703"
+  ],
+  "developmentStatus": "active",
+  "codeRepository": "https://github.com/ulissesflores/self-correction-ceiling",
+  "dateCreated": "2026-11-07"
+}

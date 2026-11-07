@@ -1,0 +1,225 @@
+{
+  "hash_alg": "sha256",
+  "domain_separation": {
+    "leaf": "0x00",
+    "node": "0x01",
+    "link": "0x02"
+  },
+  "stage_order": [
+    "environment",
+    "code",
+    "data",
+    "scores",
+    "figures"
+  ],
+  "stages": [
+    {
+      "name": "environment",
+      "kind": "file",
+      "nfiles": 1,
+      "hash": "f6268dc0d845898a1d4452d20f1fb8317d1f54ed1d2bf40ffe288eadfe327f35",
+      "leaves": [
+        {
+          "path": "env.json",
+          "sha256": "f6268dc0d845898a1d4452d20f1fb8317d1f54ed1d2bf40ffe288eadfe327f35",
+          "size": 899
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "kind": "tree",
+      "nfiles": 14,
+      "hash": "66c324a9b13bb66cc668a0bca528c4fb2b6b6a6cf34f71ebb8626c334ad0e0f6",
+      "leaves": [
+        {
+          "path": "code/analysis.py",
+          "sha256": "062325e0fde042bdb094e798abb3b308f795824f26bbc3cfd00d8a245cb5dc6e",
+          "size": 10585
+        },
+        {
+          "path": "code/ceiling.py",
+          "sha256": "7469b4a5db671b85995dbc407813f503c72de7e73792b0066a337f3e46bd916f",
+          "size": 10264
+        },
+        {
+          "path": "code/freeze_env.py",
+          "sha256": "182af1a9fefb8301a04d4eb861c344aad073977c0aa1e83248202d2a8b899974",
+          "size": 3934
+        },
+        {
+          "path": "code/provenance_chain.py",
+          "sha256": "96b03b1a00bce9fc107b54959373ce8fd1fda60b7c4cd49eefad15fa767bc31f",
+          "size": 16712
+        },
+        {
+          "path": "code/simulate.py",
+          "sha256": "c497b0049bcbda874e6fe4096d5aa0c714d5562440c1be91fa5d9410c3e53b0f",
+          "size": 5969
+        },
+        {
+          "path": "configs/stages.json",
+          "sha256": "f0110b68ef2ec5a2416b33921dc287275238f3e980554b00eb86f6e4eef74939",
+          "size": 1592
+        },
+        {
+          "path": "make_provenance.py",
+          "sha256": "96b378d66875d9c207f249e60f2ecf7b817a7ab887b26af72b8468043032d3d2",
+          "size": 15962
+        },
+        {
+          "path": "run_all.py",
+          "sha256": "a40eec4acfe6d3087e2016253ba4bddc3ace1660bd369e2f0780e90833e322f1",
+          "size": 5945
+        },
+        {
+          "path": "scripts/make_figures.py",
+          "sha256": "6a8b42f49fc920fdfa893d4d54b86a998f9e1459d1553404e615b4d8c346e3b5",
+          "size": 21819
+        },
+        {
+          "path": "tests/conftest.py",
+          "sha256": "0aa61bf364d698e9a92acf00e2dcd87a10b11880315937d0a405f865b15daa1c",
+          "size": 159
+        },
+        {
+          "path": "tests/test_kat.py",
+          "sha256": "989617a475df92ad1848c98cb2d871c7d7ab53c92de49fb936f7b55ad04440e3",
+          "size": 1812
+        },
+        {
+          "path": "tests/test_model.py",
+          "sha256": "24cd7bf45df6a0d4c31f79a566893557cee2bdc5470b5a0098f2b04e2aed073a",
+          "size": 4254
+        },
+        {
+          "path": "tests/test_paper_numbers.py",
+          "sha256": "bb04646f507857457e16f6bb50e1b6a614ba72173819ac1886192aaabde68de7",
+          "size": 4942
+        },
+        {
+          "path": "tests/test_stages_disjoint.py",
+          "sha256": "edf8d07ccb57c69f41aa5404e8d1223ee3abbdc86b84e4d68b8f1fdf2f34241c",
+          "size": 3067
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "kind": "tree",
+      "nfiles": 1,
+      "hash": "00cb5c8dcf852ddc3a56f129ef6cabd82f649d9f9d12c33546c875d7f32db0d4",
+      "leaves": [
+        {
+          "path": "data/linkedin_ablation.json",
+          "sha256": "27cc55c9fe15a6887bfdd8dfe89c9eee9cd23f7688aed214cf107049e0b65bad",
+          "size": 5282
+        }
+      ]
+    },
+    {
+      "name": "scores",
+      "kind": "tree",
+      "nfiles": 1,
+      "hash": "304e5a04b8b92c52e4f81d85d35808f2e2b0f22fb73a3f27edceeb19b02cd6c6",
+      "leaves": [
+        {
+          "path": "output/results.json",
+          "sha256": "57841255e76c0791f73fcee3767a6a98ae478c31426b43cc8704bd3fce4eacae",
+          "size": 9256
+        }
+      ]
+    },
+    {
+      "name": "figures",
+      "kind": "tree",
+      "nfiles": 16,
+      "hash": "bd61958f5e845eca5b48e7fde1227647043c31f18e866e9c763e5d27821850ae",
+      "leaves": [
+        {
+          "path": "output/figures/fig_ablation_en.png",
+          "sha256": "75dc933a2a13d38610b362fa14839d5934f9ef8e5f58a12b2ec59cde89d014d2",
+          "size": 102907
+        },
+        {
+          "path": "output/figures/fig_ablation_en.svg",
+          "sha256": "249711cd0f234fc2877a7fb46d63c75ac7bada9724083004671d0fb4c172b625",
+          "size": 24203
+        },
+        {
+          "path": "output/figures/fig_ablation_pt.png",
+          "sha256": "04b8fb56af22822fe42e593b55289a6aa5d28bcd949dd491d2602961f20057fc",
+          "size": 104011
+        },
+        {
+          "path": "output/figures/fig_ablation_pt.svg",
+          "sha256": "8fd9e29b73df02f1d84f0f8df6d60d1f32869f623f4cedc2fe119f29f0c6fce9",
+          "size": 24223
+        },
+        {
+          "path": "output/figures/fig_anatomy_en.png",
+          "sha256": "72bf98a3f197ec00ceac092671560615852cdfa887f19caa57254190211322e1",
+          "size": 159307
+        },
+        {
+          "path": "output/figures/fig_anatomy_en.svg",
+          "sha256": "188e9b1b7b7796e1fb03f50768b897bfbbff9ca18b0776d4bc0bb08af58d0512",
+          "size": 10745
+        },
+        {
+          "path": "output/figures/fig_anatomy_pt.png",
+          "sha256": "dce34af1fc10fac427d7447ceeae54ca72e3d7b891edde610ee058feb5fc4f9b",
+          "size": 156519
+        },
+        {
+          "path": "output/figures/fig_anatomy_pt.svg",
+          "sha256": "b9c9ffa3bbb1850c71c5c6f3f0822b8bb5d038170554cd6009a326dbc8f4b2b1",
+          "size": 10899
+        },
+        {
+          "path": "output/figures/fig_architecture_en.png",
+          "sha256": "2d84ae60e03680f954bb46113c0be793184fd54dbddf48bd6e47dd02f6c13151",
+          "size": 171560
+        },
+        {
+          "path": "output/figures/fig_architecture_en.svg",
+          "sha256": "5ab8a9c27e8b3794554bb9425fa7f9db40d1057c73c65d7d6dd021797b4b15ed",
+          "size": 18974
+        },
+        {
+          "path": "output/figures/fig_architecture_pt.png",
+          "sha256": "6b34aee7cdb0e0aef83993dbcf3d63bd4a485613aea41870fb49b465bd9eb0d5",
+          "size": 191507
+        },
+        {
+          "path": "output/figures/fig_architecture_pt.svg",
+          "sha256": "10bd18704d93af44e8e66fa77d1d50d550b45ebda0dbf52ac2a7d324c7e8d5a8",
+          "size": 19056
+        },
+        {
+          "path": "output/figures/fig_ceiling_en.png",
+          "sha256": "2f69311545ff92542262c96ac7feef83ee621d843143729d63bc4a2da44d01be",
+          "size": 122076
+        },
+        {
+          "path": "output/figures/fig_ceiling_en.svg",
+          "sha256": "83862b3904cc6c7a592a7df0848294fab9b667dbf63e47b2615715b691d937aa",
+          "size": 18920
+        },
+        {
+          "path": "output/figures/fig_ceiling_pt.png",
+          "sha256": "dc47e39e3d9124226337d9934e7648bd38a84086e09b4436209da826cf579f92",
+          "size": 121552
+        },
+        {
+          "path": "output/figures/fig_ceiling_pt.svg",
+          "sha256": "317e20c7830932bb1886fe0c8dc8e5bc677e4997e06a8e3a0075a8ad1c03e453",
+          "size": 18959
+        }
+      ]
+    }
+  ],
+  "prev_chain_head": "0000000000000000000000000000000000000000000000000000000000000000",
+  "root": "9d99e9ce3413c8e657ed1d442b7f8ffa1b3bfde40927d26621574558f1167b9d",
+  "chain_head": "9d99e9ce3413c8e657ed1d442b7f8ffa1b3bfde40927d26621574558f1167b9d"
+}

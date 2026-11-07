@@ -1,0 +1,219 @@
+{
+  "_doc": "Table 2 (ablation study) of Chen et al. (2025), Text-to-SQL for Enterprise Data Analytics, arXiv:2507.14372v1, p. 6. Values copied from the rendered page (visual check of the PDF page, not only text extraction), 2026-11-07. Percentages as published (integers). score_4plus = share of benchmark questions whose generated query an LLM judge rated 4 or 5 on a 1-5 scale against ground truth (correct or almost correct). compile = successful compilation. valid_schema = queries with valid tables and columns (no schema hallucination). The table is a single run of an internal benchmark (>130 questions); no confidence intervals are published.",
+  "source": {
+    "citation": "Chen, A., Bundele, M., Ahlawat, G., Stetz, P., Wang, Z., Fei, Q., Jung, D., Chu, A., Jayaraman, B., Panth, A., Arora, Y., Jain, S., Varma, R., Ilin, A., Melnychuk, I., Chueh, C., Sil, J., & Wang, X. (2025). Text-to-SQL for enterprise data analytics. arXiv. https://doi.org/10.48550/arXiv.2507.14372",
+    "locator": "Table 2, p. 6",
+    "sha256_pdf": "4b986a8ab8049fbc9f9b5b9fac56f0d64a08b5ee4470a4d4e51ede5c3bf2bdf6",
+    "verified": "2026-11-07, rendered page read visually"
+  },
+  "columns": [
+    "table_recall",
+    "column_recall",
+    "score_4plus",
+    "compile",
+    "valid_schema",
+    "llm_calls",
+    "ebr_queries",
+    "db_queries"
+  ],
+  "rows": {
+    "Full": {
+      "desc": "All components",
+      "values": [
+        78,
+        56,
+        48,
+        96,
+        99,
+        4.6,
+        3.0,
+        9.4
+      ]
+    },
+    "A.5": {
+      "desc": "Full w/o popularity or joins",
+      "values": [
+        77,
+        53,
+        42,
+        95,
+        98,
+        4.8,
+        3.0,
+        8.4
+      ]
+    },
+    "A.4": {
+      "desc": "A.5 w/o domain knowledge or jargon",
+      "values": [
+        76,
+        52,
+        49,
+        96,
+        99,
+        4.7,
+        3.0,
+        8.5
+      ]
+    },
+    "A.3": {
+      "desc": "A.4 w/o example queries",
+      "values": [
+        60,
+        38,
+        24,
+        98,
+        100,
+        4.6,
+        1.0,
+        7.0
+      ]
+    },
+    "A.2": {
+      "desc": "A.3 w/o table or column attributes",
+      "values": [
+        56,
+        30,
+        11,
+        93,
+        99,
+        5.0,
+        1.0,
+        7.5
+      ]
+    },
+    "A.1": {
+      "desc": "A.2 w/o table clusters (schemas only)",
+      "values": [
+        45,
+        24,
+        9,
+        88,
+        99,
+        5.1,
+        1.0,
+        7.1
+      ]
+    },
+    "B.3": {
+      "desc": "Full w/o researcher agent",
+      "values": [
+        75,
+        53,
+        47,
+        95,
+        98,
+        4.3,
+        3.0,
+        9.5
+      ]
+    },
+    "B.2": {
+      "desc": "B.3 w/o query fixer",
+      "values": [
+        76,
+        55,
+        47,
+        76,
+        85,
+        4.0,
+        3.0,
+        8.4
+      ]
+    },
+    "B.1": {
+      "desc": "B.2 w/o rankers (EBR, writer only)",
+      "values": [
+        67,
+        50,
+        46,
+        66,
+        77,
+        2.0,
+        3.0,
+        7.1
+      ]
+    },
+    "C.4": {
+      "desc": "(A.4, B.3) combination",
+      "values": [
+        76,
+        52,
+        46,
+        97,
+        98,
+        4.3,
+        3.0,
+        8.6
+      ]
+    },
+    "C.3": {
+      "desc": "(A.3, B.2) combination",
+      "values": [
+        60,
+        37,
+        20,
+        77,
+        87,
+        4.0,
+        1.0,
+        6.1
+      ]
+    },
+    "C.2": {
+      "desc": "(A.2, B.1) combination",
+      "values": [
+        49,
+        27,
+        17,
+        68,
+        83,
+        2.0,
+        1.0,
+        5.0
+      ]
+    },
+    "C.1": {
+      "desc": "(A.1, B.1) combination",
+      "values": [
+        37,
+        23,
+        16,
+        67,
+        81,
+        1.9,
+        1.0,
+        3.9
+      ]
+    }
+  },
+  "expert_review": {
+    "_doc": "Section 3.3.4, p. 6: production version (slightly modified from Full).",
+    "rated": 124,
+    "asked": 133,
+    "share_4_or_5": 53,
+    "share_3plus": 77,
+    "most_common_issue": "Filter is incorrect",
+    "most_common_issue_share": 24,
+    "incorrect_join_share": 4
+  },
+  "deployment": {
+    "_doc": "Section 4, p. 6.",
+    "weekly_active_users_over": 300,
+    "return_next_week_share": 20,
+    "sessions_code_pasted_share": 33,
+    "survey_very_good_or_excellent": 39,
+    "survey_at_least_passes": 95
+  },
+  "correction_loop_max_rounds": {
+    "value": 2,
+    "locator": "p. 4 (Section 3.2, query writing and correction): the correction loop runs at most twice to address compilation and hallucination issues"
+  },
+  "validator_scope": {
+    "locator": "p. 4 (Section 3.2)",
+    "detects": "Trino EXPLAIN in VALIDATE mode (syntax, function usage, table name, column name) plus a hallucination validator that checks extracted tables and columns against the table and column index",
+    "explicitly_not_covered": "invalid column values (left to future work)",
+    "verbatim": "For hallucination, we focus on invalid tables and columns, which are easy to detect and affect the query structurally, and leave invalid column values to future work.",
+    "researcher_agent": "Researcher LLM Agent is equipped with tools to search for tables and retrieve their schemas and other metadata ... returns the updated context (return to retrieval: r > 0)"
+  }
+}
