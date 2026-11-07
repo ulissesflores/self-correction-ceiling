@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this package, please cite it with the metadata below."
 title: "The self-correction ceiling: what a deterministic validator cannot see in multi-agent text-to-SQL"
 type: software
-version: "0.1.0"
+version: "0.1.1"
 repository-code: "https://github.com/ulissesflores/self-correction-ceiling"
 date-released: "2026-11-07"
 doi: "10.5281/zenodo.24041990"
@@ -13,6 +13,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.24041991"
     description: "Version DOI of the 0.1.0-rc1 archive"
+  - type: doi
+    value: "10.5281/zenodo.24042024"
+    description: "Version DOI of the 0.1.0 archive"
 authors:
   - family-names: "Flores"
     given-names: "Carlos Ulisses"

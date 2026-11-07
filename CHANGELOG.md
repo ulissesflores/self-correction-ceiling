@@ -4,6 +4,17 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project follows
 [Semantic Versioning](https://semver.org/). Versions below 1.0.0 are pre-release.
 
+## [0.1.1] - 2026-11-07
+
+### Added
+
+- `docs/paper/`: the case-study paper as submitted on 2026-11-07 (PDF `554e403d93edbb3f…` and its DOCX),
+  with `SHA256SUMS`. It cites this repository as version 0.1.0 with the concept DOI.
+
+### Unchanged
+
+- Code, data, results, figures and the seal of `runs/v0.1.0` (root `9d99e9ce…`).
+
 ## [0.1.0] - 2026-11-07
 
 ### Archived

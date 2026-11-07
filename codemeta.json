@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "name": "The self-correction ceiling: what a deterministic validator cannot see in multi-agent text-to-SQL",
   "description": "Companion package of a study of the accuracy ceiling of agentic text-to-SQL pipelines. In a retrieve -> generate -> validate -> correct pipeline whose corrector can return to retrieval, accuracy is bounded by 1 - U, where U = R(1-G)(1-d_g) + (1-R)(1-G0)(1-d_r) is the mass of errors that a deterministic validator never flags; when the corrector never silences a flagged error, it changes the speed at which the bound is approached, not the bound; with silencing, the limit falls below the bound. The package ships the closed-form model with proofs, a Monte Carlo known-answer test, the arithmetic of the public ablation of the LinkedIn SQL Bot (Chen et al., 2025, arXiv:2507.14372; one run, LLM judge, no confidence intervals), in which the silent error is only bounded by the published totals (29-53% without the query fixer, 48-53% with it), a pattern consistent with the model that does not prove it, four bilingual figures and a SHA-256 provenance chain. Scenarios are illustrative, not fitted to the case. The post-repair accuracy model and the coverage ceiling already exist in the literature (Yang et al., 2025; Reitich, 2026; Arnold, 1973); the contribution is to instantiate and compose them for multi-agent text-to-SQL with a predominantly deterministic validator.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": [
     "https://spdx.org/licenses/Apache-2.0",
     "https://spdx.org/licenses/CC-BY-4.0"

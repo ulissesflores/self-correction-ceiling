@@ -1,6 +1,6 @@
 [project]
 name = "self-correction-ceiling"
-version = "0.1.0"
+version = "0.1.1"
 description = "Companion code: a closed-form accuracy ceiling for retrieve -> generate -> validate -> correct text-to-SQL pipelines, a Monte Carlo known-answer test and the arithmetic of a public ablation."
 readme = "README.md"
 requires-python = ">=3.11"

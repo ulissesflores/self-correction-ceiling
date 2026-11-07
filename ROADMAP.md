@@ -2,7 +2,11 @@
 
 Honest next steps; none is done.
 
-## 0.1.0 (current, pre-release)
+## 0.1.1 (current)
+
+The submitted paper in `docs/paper/`; nothing else changes.
+
+## 0.1.0
 
 Model, proofs, known-answer test, arithmetic of one public table, four figures, sealed chain.
 Public on GitHub and archived on Zenodo (concept DOI 10.5281/zenodo.24041990).

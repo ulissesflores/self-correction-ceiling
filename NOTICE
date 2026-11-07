@@ -14,6 +14,10 @@ This repository is dual-licensed:
     Attribution 4.0 International (CC BY 4.0).
     See LICENSES/CC-BY-4.0.txt.
 
+The paper in docs/paper/ (PDF and DOCX) is the author's own text, under
+CC BY 4.0, except the emblem of the American Global Tech University on its
+cover, which belongs to that institution and is not licensed here.
+
 Third-party material — NOT redistributed here:
 
   The paper analysed as a case, Chen et al. (2025), "Text-to-SQL for

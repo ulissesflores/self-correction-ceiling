@@ -15,7 +15,7 @@ the bound.
 [![Tests](https://img.shields.io/badge/tests-published_numbers_asserted-brightgreen.svg)](tests/test_paper_numbers.py)
 [![Provenance](https://img.shields.io/badge/reproducible-SHA--256_chain-success.svg)](REPRODUCIBILITY.md)
 
-`0.1.0` · concept DOI [10.5281/zenodo.24041990](https://doi.org/10.5281/zenodo.24041990) · [github.com/ulissesflores/self-correction-ceiling](https://github.com/ulissesflores/self-correction-ceiling)
+`0.1.1` · concept DOI [10.5281/zenodo.24041990](https://doi.org/10.5281/zenodo.24041990) · [github.com/ulissesflores/self-correction-ceiling](https://github.com/ulissesflores/self-correction-ceiling)
 
 </div>
 
@@ -34,6 +34,13 @@ This repository is the companion package of a study of the accuracy ceiling of a
 text-to-SQL pipelines. It ships the closed-form model with proofs, a Monte Carlo that serves as a
 known-answer test of it, the arithmetic of the public ablation, four bilingual figures and a SHA-256
 provenance chain. Scenarios of the model are **illustrative**: they are not fitted to the case.
+
+**Paper.** The case study written with this package (Portuguese, APA 7; *O teto da autocorreção: o que o
+validador não vê no SQL Bot multiagente do LinkedIn*), submitted on 2026-11-07 for the MIT 509 AI
+Engineering course of the American Global Tech University, is in [`docs/paper/`](docs/paper/) exactly as
+submitted: [PDF](docs/paper/flores-2026-teto-da-autocorrecao.pdf) (SHA-256 `554e403d93edbb3f…`) and its source
+[DOCX](docs/paper/flores-2026-teto-da-autocorrecao.docx); full hashes in [`docs/paper/SHA256SUMS`](docs/paper/SHA256SUMS). Its numbers
+are those of the sealed run `runs/v0.1.0`.
 
 ## What this contributes
 
@@ -149,7 +156,7 @@ python make_provenance.py --verify
 ```
 
 The root of the seal of `0.1.0` is the `root` field of `runs/v0.1.0/manifest.json`; the command
-above prints it.
+above prints it. `0.1.1` adds only the paper and metadata, so the seal is unchanged.
 
 The mechanism, what it proves and what it does not are in [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).
 
@@ -160,7 +167,8 @@ code/                 model (ceiling.py), simulation (simulate.py), results (ana
                       vendored provenance tooling (provenance_chain.py, freeze_env.py)
 scripts/              make_figures.py (claim map in the docstring)
 data/                 linkedin_ablation.json (Table 2 and Sections 3.3.4 and 4, with locator)
-docs/                 THEORY.md (statements, proofs, scope)
+docs/                 THEORY.md (statements, proofs, scope); paper/ (the submitted paper, PDF and
+                      DOCX, with SHA256SUMS)
 output/               results.json, figures/ (pt and en, PNG and SVG)
 runs/                 sealed manifest, sha256sums.txt, CHAIN.jsonl
 configs/stages.json   the stages of the chain
@@ -187,7 +195,7 @@ latest:
   title   = {The self-correction ceiling: what a deterministic validator cannot see in
              multi-agent text-to-SQL},
   year    = {2026},
-  version = {0.1.0},
+  version = {0.1.1},
   doi     = {10.5281/zenodo.24041990},
   url     = {https://doi.org/10.5281/zenodo.24041990}
 }
