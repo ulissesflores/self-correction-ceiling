@@ -84,8 +84,9 @@ the closed form gives `R G + R (1 - G) d_g + (1 - R) G0 + (1 - R)(1 - G0) d_r`, 
 
 1. **Without silencing, the corrector changes the speed, not the ceiling.** `c` and `k` do not
    appear in `1 - U`;
-   `A` is non-decreasing in `k` when `e = f = 0` and approaches `1 - U` at a rate set by `c` and
-   `r c`. Only `R`, `G`, `G0`, `d_g`, `d_r` move the ceiling.
+   `A` is non-decreasing in `k` when `e = f = 0` and, for `c > 0` and `r > 0`, approaches `1 - U`
+   at a rate set by `c` and `r c` (with `q = 0` for a class of flagged errors, that class is never
+   repaired; see Corollary 2). Only `R`, `G`, `G0`, `d_g`, `d_r` move the ceiling.
 2. **No return to retrieval (`r = 0`).** `F(0, 0, k) = 0`, so flagged retrieval errors are
    unreachable and the ceiling is `R [G + (1 - G) d_g] + (1 - R) G0`, the linear-pipeline bound.
 3. **Silencing and false positives.** With `e > 0` the loop ends in a silent error with probability
