@@ -6,6 +6,11 @@ All notable changes to this project are documented here. The format follows
 
 ## [0.1.0] - 2026-11-07
 
+### Archived
+
+- Zenodo concept DOI [10.5281/zenodo.24041990](https://doi.org/10.5281/zenodo.24041990); the `0.1.0-rc1` archive has the version DOI
+  [10.5281/zenodo.24041991](https://doi.org/10.5281/zenodo.24041991).
+
 ### Added
 
 - Closed-form accuracy of a `retrieve -> generate -> validate -> correct` pipeline

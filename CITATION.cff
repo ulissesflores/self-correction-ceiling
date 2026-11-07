@@ -5,6 +5,14 @@ type: software
 version: "0.1.0"
 repository-code: "https://github.com/ulissesflores/self-correction-ceiling"
 date-released: "2026-11-07"
+doi: "10.5281/zenodo.24041990"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24041990"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.24041991"
+    description: "Version DOI of the 0.1.0-rc1 archive"
 authors:
   - family-names: "Flores"
     given-names: "Carlos Ulisses"

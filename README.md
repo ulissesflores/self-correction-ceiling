@@ -8,13 +8,14 @@ retrieval, accuracy is bounded by `1 - U`, where `U` is the mass of errors the v
 flags; without silencing, the corrector (`c`, `k`) changes how fast the bound is approached, not
 the bound.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24041990.svg)](https://doi.org/10.5281/zenodo.24041990)
 [![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSES/CC-BY-4.0.txt)
 [![Python](https://img.shields.io/badge/python-%E2%89%A53.11-blue.svg)](.github/workflows/ci.yml)
 [![Tests](https://img.shields.io/badge/tests-published_numbers_asserted-brightgreen.svg)](tests/test_paper_numbers.py)
 [![Provenance](https://img.shields.io/badge/reproducible-SHA--256_chain-success.svg)](REPRODUCIBILITY.md)
 
-`0.1.0` (pre-release, no DOI yet) · [github.com/ulissesflores/self-correction-ceiling](https://github.com/ulissesflores/self-correction-ceiling)
+`0.1.0` · concept DOI [10.5281/zenodo.24041990](https://doi.org/10.5281/zenodo.24041990) · [github.com/ulissesflores/self-correction-ceiling](https://github.com/ulissesflores/self-correction-ceiling)
 
 </div>
 
@@ -177,7 +178,8 @@ run_all.py            single entry point; make_provenance.py builds and verifies
 
 ## Citation
 
-There is no DOI yet. Until a release is archived, cite the repository and the version:
+Cite the concept DOI, [10.5281/zenodo.24041990](https://doi.org/10.5281/zenodo.24041990), which covers all versions and resolves to the
+latest:
 
 ```bibtex
 @software{flores_self_correction_ceiling,
@@ -186,12 +188,13 @@ There is no DOI yet. Until a release is archived, cite the repository and the ve
              multi-agent text-to-SQL},
   year    = {2026},
   version = {0.1.0},
-  url     = {https://github.com/ulissesflores/self-correction-ceiling}
+  doi     = {10.5281/zenodo.24041990},
+  url     = {https://doi.org/10.5281/zenodo.24041990}
 }
 ```
 
-When a DOI exists, the concept DOI (all versions, resolves to the latest) is the one to cite for
-the project; the version DOI identifies exactly one release. Machine-readable metadata:
+The concept DOI is the one to cite for the project; each release also has its own version DOI,
+listed on the Zenodo record (the `0.1.0-rc1` archive is [10.5281/zenodo.24041991](https://doi.org/10.5281/zenodo.24041991)). Machine-readable metadata:
 [`CITATION.cff`](CITATION.cff), [`codemeta.json`](codemeta.json), [`.zenodo.json`](.zenodo.json).
 
 ## License

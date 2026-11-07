@@ -55,5 +55,6 @@
   ],
   "developmentStatus": "active",
   "codeRepository": "https://github.com/ulissesflores/self-correction-ceiling",
-  "dateCreated": "2026-11-07"
+  "dateCreated": "2026-11-07",
+  "identifier": "https://doi.org/10.5281/zenodo.24041990"
 }

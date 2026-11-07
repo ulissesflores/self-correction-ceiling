@@ -5,15 +5,15 @@ Honest next steps; none is done.
 ## 0.1.0 (current, pre-release)
 
 Model, proofs, known-answer test, arithmetic of one public table, four figures, sealed chain.
-No GitHub release and no DOI yet.
+Public on GitHub and archived on Zenodo (concept DOI 10.5281/zenodo.24041990).
 
 ## Before the first citable version
 
 - ~~Verify the transcription of `data/linkedin_ablation.json` a second time, independently of the
   first reading.~~ Done 2026-11-07: a second, independent reading matched all 104 values (13
   configurations x 8 metrics) against the preprint table.
-- Decide, with the author, when the repository goes public; the DOI is minted by the first release,
-  not before.
+- ~~Decide, with the author, when the repository goes public; the DOI is minted by the first release,
+  not before.~~ Done 2026-11-07: public, `0.1.0-rc1` archived on Zenodo.
 
 ## 0.2.0 (candidates)
 
