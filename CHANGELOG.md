@@ -2,8 +2,7 @@
 
 All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project follows
-[Semantic Versioning](https://semver.org/). Versions below 1.0.0 are pre-release: nothing is
-archived and there is no DOI.
+[Semantic Versioning](https://semver.org/). Versions below 1.0.0 are pre-release.
 
 ## [0.1.0] - 2026-11-07
 
